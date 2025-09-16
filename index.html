@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inclusão e-Sports</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="logo">
+      <a href="#">
+        <img src="ICNLUSÃO ES BRANCA.png" alt="Logo" />
+      </a>
+    </div>
+    <ul>
+      <li><a href="#info">Serviços</a></li>
+      <li><a href="#forms">Inscrições</a></li>
+      <li><a href="#forms">Participar</a></li>
+    </ul>
+  </div>
+
+  <!-- Background -->
+
+  <section class="bg" id="bg">
+    <div class="texto-bg">
+      <h2>Inclusão e-Sports</h2>
+      <p>Transforme sua paixão por games em oportunidades reais.</p>
+      <p>Aprenda Programação, melhore nos jogos e cuide da sua mente.</p>
+    </div>
+    <div class="btn">
+      <a href="#forms"><button type="button">Quero me inscrever</button></a>
+      <a href="#info"><button type="button">Saiba mais</button></a>
+    </div>
+    <div class="stats">
+      <div class="al-at">100+ <p>Alunos Ativos</p></div>
+      <div class="jg-pr">5 <p>Jogos Principais</p></div>
+      <div class="sp-ps">24/7 <p>Suporte Psicológico</p></div>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+
+  <section class="info" id="info">
+    <h2>Serviços</h2>
+    <div class="servicos">
+      <div class="servico">
+        <h3>Aulas de Games</h3>
+        <p>Aprenda estratégias, táticas e melhore suas habilidades nos principais jogos competitivos.</p>
+      </div>
+      <div class="servico">
+        <h3>Programação</h3>
+        <p>Entre no mundo da tecnologia com aulas de programação 3x por semana.</p>
+      </div>
+      <div class="servico">
+        <h3>Suporte Psicológico</h3>
+        <p>Atendimento especializado para os alunos, cuidando da mente para melhores resultados.</p>
+      </div>
+    </div>
+  </section>
+<!-- Formulário -->
+
+<section class="forms" id="forms">
+  <h2>Inscreva-se</h2>
+  <form id="formInscricao">
+    <input type="text" id="nome" placeholder="Nome" required>
+    <input type="email" id="email" placeholder="E-mail" required>
+    <input type="tel" id="telefone" placeholder="Telefone" required>
+    <button type="submit">Enviar</button>
+  </form>
+<!-- Card WhatsApp -->
+
+  <div class="card-whatsapp" style="margin-top:20px; padding:15px; background:#111;">
+    <h3>📱 Dúvidas?</h3>
+    <p>Entre em contato com a nossa equipe pelo WhatsApp:</p>
+    <p><strong>(61) 9 8204-1846</strong></p>
+  </div>
+</section>
+
+<!-- fotos alunos -->
+<section class="fotos-alunos" id="fotos-alunos">
+  <h2>Nossos Alunos em Ação</h2>
+  <div class="carrossel">
+    <div class="carrossel-track">
+      <!-- Primeira sequência -->
+      <img src="foto1.JPG" alt="Aluno 1">
+      <img src="foto2.JPG" alt="Aluno 2">
+      <img src="foto3.jpg" alt="Aluno 3">
+      <img src="foto4.JPG" alt="Aluno 4">
+      <img src="foto5.JPG" alt="Aluno 5">
+      <img src="Cópia de INCLUSÃO E-SPORTS-56.JPG" alt="Aluno 6">
+      <img src="Cópia de INCLUSÃO E-SPORTS-64.JPG" alt="Aluno 7">
+
+      <!-- Repetição para efeito infinito -->
+      <img src="foto1.JPG" alt="Aluno 1">
+      <img src="foto2.JPG" alt="Aluno 2">
+      <img src="foto3.jpg" alt="Aluno 3">
+      <img src="foto4.JPG" alt="Aluno 4">
+      <img src="foto5.JPG" alt="Aluno 5">
+      <img src="Cópia de INCLUSÃO E-SPORTS-56.JPG" alt="Aluno 6">
+      <img src="Cópia de INCLUSÃO E-SPORTS-64.JPG" alt="Aluno 7">
+    </div>
+  </div>
+</section>
+
+<!-- Apoiadores-->
+
+<section class="apoiadores" id="apoiadores">
+  <h2>Nossos Apoiadores</h2>
+  <div class="logos">
+    <img src="Marca_GDF_Reduzida_Horizontal-pdf.png" alt="Logo secti" >
+    <img src="IBRH.png" alt="Logo ibrh">
+  </div>
+</section>
+
+<!-- Footer -->
+
+<footer>
+  <p>📍 Endereço: Brasília - DF</p>
+  <p>📧 Contato: iinclusaoesports@gmail.com</p>
+  <p>© 2025 Inclusão e-Sports - Todos os direitos reservados</p>
+</footer>
+<script>
+  document.getElementById("formInscricao").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    let linkGoogleForms = "https://forms.gle/MbLhsPjgjJfQhUhXA"; 
+    let novaAba = window.open("about:blank", "_blank");
+    novaAba.location.href = linkGoogleForms;
+  });
+</script>
+</body>
+</html>
